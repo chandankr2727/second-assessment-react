@@ -41,9 +41,7 @@ const Form = () => {
                      record.map((a) => {
                          return (
                              <div className='displayinfo' key={a.id}>
-                                 <p> Name : {a.name} | </p>
-                                 <p> Department : {a.department} | </p>
-                                 <p> Rating : {a.rating}</p>
+                                 <p> Name : {a.name} | Department : {a.department} | Rating  : {a.rating}</p>
                              </div>
                          )
                      })
