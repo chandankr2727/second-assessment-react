@@ -24,13 +24,13 @@ const Form = () => {
         <div className='form'>
                 <form onSubmit={handlesubmit}>
                     <label className="label">Name : </label>
-                    <input type="text" autoComplete='off' className="input" name='name' id='name' value={state.name} onChange={handlechange} />
+                    <input type="text" required autoComplete='off' className="input" name='name' id='name' value={state.name} onChange={handlechange} />
                     <br/>
                     <label className="label">Department : </label>
-                    <input type="text" autoComplete='off' className="input" name='department' id='department' value={state.department} onChange={handlechange} />
+                    <input type="text" required autoComplete='off' className="input" name='department' id='department' value={state.department} onChange={handlechange} />
                     <br/>
                     <label className="label">Rating : </label>
-                    <input type="number" autoComplete='off' className="input" name='rating' id='rating' value={state.rating} onChange={handlechange} />
+                    <input type="number" required autoComplete='off' className="input" name='rating' id='rating' value={state.rating} onChange={handlechange} />
                     <br/>
                     <br/>
                     <button type='submit' className='btn'>SUBMIT</button>
